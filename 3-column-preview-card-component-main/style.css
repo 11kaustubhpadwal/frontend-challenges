@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 2rem 0;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  margin: 2rem 0;
+}
+
+button {
+  margin: 4rem 0 0 0;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+}

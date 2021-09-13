@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <div
+      style="
+        background-color: hsl(244, 38%, 16%);
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        width: 70%;
+        border-radius: 0.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      "
+    >
+      <div class="col-1" style="padding: 4rem 4.5rem 0 4rem">
+        <h1>
+          Get <span style="color: hsl(277, 64%, 61%)">insights</span> that help
+          your business grow.
+        </h1>
+        <p
+          style="
+            color: hsla(0, 0%, 100%, 0.75);
+            font-family: 'Lexend Deca', sans-serif;
+            margin: 2rem 0 5rem;
+            font-size: small;
+            line-height: 1.5rem;
+            padding: 0 5rem 0 0;
+          "
+        >
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            padding: 0 3rem 3.5rem 0;
+          "
+        >
+          <div class="inner-col-1">
+            <b style="font-family: Inter, sans-serif; font-size: 1.5rem"
+              >10k+</b
+            >
+            <p
+              style="
+                color: hsla(0, 0%, 100%, 0.6);
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: small;
+                margin: 0.5rem 0 0 0;
+              "
+            >
+              COMPANIES
+            </p>
+          </div>
+          <div class="inner-col-2">
+            <b style="font-family: Inter, sans-serif; font-size: 1.5rem">314</b>
+            <p
+              style="
+                color: hsla(0, 0%, 100%, 0.6);
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: small;
+                margin: 0.5rem 0 0 0;
+              "
+            >
+              TEMPLATES
+            </p>
+          </div>
+          <div class="inner-col-3">
+            <b style="font-family: Inter, sans-serif; font-size: 1.5rem"
+              >12M+</b
+            >
+            <p
+              style="
+                color: hsla(0, 0%, 100%, 0.6);
+                font-family: 'Lexend Deca', sans-serif;
+                font-size: small;
+                margin: 0.5rem 0 0 0;
+              "
+            >
+              QUERIES
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="overlay"></div>
+      </div>
+    </div>
+  </body>
+</html>

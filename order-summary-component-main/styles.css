@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+
+h1 {
+  font-weight: 900;
+}
+
+p {
+  font-weight: 500;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-items: center;
+  padding: 5% 0;
+}
+
+.grid-item {
+  background-color: white;
+  border-radius: 1.2rem;
+  box-shadow: 1rem 1rem 4rem lightgrey;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: auto 6fr auto;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.proceed-button {
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  box-shadow: 0.25rem 0.25rem 4rem grey;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.proceed-button:hover {
+  background-color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.change-link:hover {
+  text-decoration: none;
+}

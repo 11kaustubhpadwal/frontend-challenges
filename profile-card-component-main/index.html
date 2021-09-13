@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <div style="position: absolute">
+      <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+            <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+            <stop stop-color="#53FFEE" offset="99.94%" />
+          </linearGradient>
+        </defs>
+        <ellipse
+          fill="url(#a)"
+          transform="rotate(-135 275 300)"
+          cx="489"
+          cy="489"
+          rx="489"
+          ry="488"
+          fill-rule="evenodd"
+          opacity=".5"
+        />
+      </svg>
+    </div>
+
+    <div style="position: absolute; margin: 25% 0 0 50%">
+      <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+            <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+            <stop stop-color="#53FFEE" offset="99.94%" />
+          </linearGradient>
+        </defs>
+        <ellipse
+          fill="url(#a)"
+          transform="scale(1 -1) rotate(45 1669.55 0)"
+          cx="489"
+          cy="489"
+          rx="489"
+          ry="488"
+          fill-rule="evenodd"
+          opacity=".25"
+        />
+      </svg>
+    </div>
+
+    <div
+      style="
+        width: 350px;
+        text-align: center;
+        background-color: white;
+        border-radius: 0.7rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      "
+    >
+      <div
+        style="
+          background-image: url(images/bg-pattern-card.svg);
+          height: 140px;
+          width: 350px;
+          border-radius: 0.7rem 0.7rem 0 0;
+        "
+      >
+        <img
+          src="images/image-victor.jpg"
+          alt="profile-image"
+          style="
+            border-radius: 50%;
+            border: 5px solid white;
+            margin: 5.5rem 0 0 0;
+          "
+        />
+      </div>
+
+      <div style="margin: 4.5rem 0 0 0">
+        <b
+          >Victor Crest
+          <span style="color: hsl(0, 0%, 59%); margin: 0 0 0 0.5rem"
+            >26</span
+          ></b
+        >
+        <p
+          style="color: hsl(0, 0%, 59%); font-size: small; margin: 0.5rem 0 0 0"
+        >
+          London
+        </p>
+      </div>
+
+      <hr style="opacity: 0.3; margin: 1.5rem 0" />
+
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 4fr 4fr 4fr;
+          padding: 0 0 1.5rem 0;
+        "
+      >
+        <div class="col-1">
+          <b>80K</b>
+          <p
+            style="
+              color: hsl(0, 0%, 59%);
+              font-size: x-small;
+              letter-spacing: 1.5px;
+              margin: 0.25rem 0 0 0;
+            "
+          >
+            Followers
+          </p>
+        </div>
+        <div class="col-2">
+          <b>803K</b>
+          <p
+            style="
+              color: hsl(0, 0%, 59%);
+              font-size: x-small;
+              letter-spacing: 1.5px;
+              margin: 0.25rem 0 0 0;
+            "
+          >
+            Likes
+          </p>
+        </div>
+        <div class="col-3">
+          <b>1.4K</b>
+          <p
+            style="
+              color: hsl(0, 0%, 59%);
+              font-size: x-small;
+              letter-spacing: 1.5px;
+              margin: 0.25rem 0 0 0;
+            "
+          >
+            Photos
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
